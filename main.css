@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+h1 {
+  color: #ff5a5f;
+}
+
+h2 {
+  color: #00a699;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+}
+
+li {
+  color: #000;
+  font-size: 1.25rem;
+  margin: 6px 0;
+  text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+}
+
+li::before {
+  color: #00a699;
+  content: '→';
+  left: 0;
+  position: absolute;
+}
+
+li:hover {
+    color: #00a699;
+}
